@@ -1,0 +1,25 @@
+.container{
+    background-color:var(--darkBlue);
+    color:var(--white);
+    height:5rem;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+.wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:auto;
+    padding:0 10%;
+}
+.links{
+    display:flex;
+    align-items:center;
+    height:auto;
+    justify-content:flex-end;
+    gap:3.5rem;
+}
+.links a{
+    color:var(--white);
+}
