@@ -4,7 +4,7 @@
     height:5rem;
     justify-content:space-between;
     align-items:center;
-    width:100%;
+    border-bottom:1px solid var(--blue);
 }
 .wrapper{
     display:flex;
@@ -12,6 +12,7 @@
     align-items:center;
     height:auto;
     padding:0 10%;
+    height:100%;
 }
 .links{
     display:flex;
