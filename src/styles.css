@@ -6,12 +6,14 @@
 }
 :root{
     font-size:1rem;
+    scroll-behavior: smooth;
    --darkBlue:rgb(22, 75, 96);
    --blue:rgb(27, 107, 147);
    --white:#ffffff;
    --orange:#ffa500;
    --lightBlue:#4FC0D0;
    --black:#000000;
+   --veryDarkBlue:rgb(33, 51, 99);
 }
 li{
     list-style:none;
