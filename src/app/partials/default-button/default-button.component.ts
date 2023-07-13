@@ -15,7 +15,7 @@ export class DefaultButtonComponent {
   @Input()
   color = 'var(--white)'
   @Input()
-  fontSize = 1.1;
+  fontSize = 1.3;
   @Input()
   widthRem = 12;
   @Input()

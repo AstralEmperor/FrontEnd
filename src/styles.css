@@ -7,6 +7,7 @@
 :root{
     font-size:1rem;
     scroll-behavior: smooth;
+    font-family: 'VT323', monospace;
    --darkBlue:rgb(22, 75, 96);
    --blue:rgb(27, 107, 147);
    --white:#ffffff;
@@ -16,7 +17,7 @@
    --black:#000000;
    --darkVariantBlue:rgb(0, 75, 105);
    --darkVariantBlue2:rgb(14, 54, 70);
-   --snowGray: #c0c0c0;
+   --snowGray: #dddddd;
    --darkGray:#585E61;
    --gray: #8E979C;
 }

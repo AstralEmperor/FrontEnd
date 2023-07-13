@@ -39,6 +39,7 @@ box-shadow:1px 0 10px var(--black);
 border-radius:20px;
 background-color:var(--snowGray);
 padding:1.5rem;
+line-height:1.2em;
 }
 .about__imgContainer{
     flex:0.55;
