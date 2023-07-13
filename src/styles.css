@@ -11,9 +11,14 @@
    --blue:rgb(27, 107, 147);
    --white:#ffffff;
    --orange:#ffa500;
+   --darkOrange:#8d5f09;
    --lightBlue:#4FC0D0;
    --black:#000000;
-   --veryDarkBlue:rgb(33, 51, 99);
+   --darkVariantBlue:rgb(0, 75, 105);
+   --darkVariantBlue2:rgb(14, 54, 70);
+   --snowGray: #c0c0c0;
+   --darkGray:#585E61;
+   --gray: #8E979C;
 }
 li{
     list-style:none;
@@ -22,6 +27,7 @@ a{
     position:relative;
     text-decoration:none;
     border-bottom:none;
+    cursor:pointer;
 }
 a::after{
     position:absolute;

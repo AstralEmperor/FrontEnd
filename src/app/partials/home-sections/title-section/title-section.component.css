@@ -1,6 +1,5 @@
 .title{
     position:relative;
-    
     height:auto;
     width:100%;
     background-color:var(--darkBlue);
@@ -15,8 +14,7 @@
     height:4rem;
     bottom:-4rem;
     clip-path:polygon(100% 0%, 100% 100%, 0% 0%);
-    z-index:1000;
-    
+    z-index:100;  
 }
 .title__container{
     width:100%;

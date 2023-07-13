@@ -9,7 +9,7 @@ export class DefaultButtonComponent {
   @Input()
   type: 'submit' | 'button' = 'button'
   @Input()
-  text = 'My Projects';
+  text!: string;
   @Input()
   bgColor = 'var(--orange)'
   @Input()
@@ -20,6 +20,9 @@ export class DefaultButtonComponent {
   widthRem = 12;
   @Input()
   heightRem = 2.2;
-  @Output()
-  onClick = new EventEmitter();
+
+  public goTo(section: string){
+    window.location.hash =''
+    window.location.hash = section
+  }
 }

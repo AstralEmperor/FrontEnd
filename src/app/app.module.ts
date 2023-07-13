@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './partials/header/header.component';
-import { TitleSectionComponent } from './partials/title-section/title-section.component';
+import { TitleSectionComponent } from './partials/home-sections/title-section/title-section.component';
 import { DefaultButtonComponent } from './partials/default-button/default-button.component';
+import { TitleBlueprintComponent } from './partials/title-blueprint/title-blueprint.component';
+import { AboutMeSectionComponent } from './partials/home-sections/about-me-section/about-me-section.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { DefaultButtonComponent } from './partials/default-button/default-button
     HeaderComponent,
     HomeComponent,
     TitleSectionComponent,
-    DefaultButtonComponent
+    DefaultButtonComponent,
+    TitleBlueprintComponent,
+    AboutMeSectionComponent
   ],
   imports: [
     BrowserModule,
