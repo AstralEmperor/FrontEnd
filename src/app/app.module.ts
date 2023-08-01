@@ -10,6 +10,7 @@ import { TitleSectionComponent } from './partials/home-sections/title-section/ti
 import { DefaultButtonComponent } from './partials/default-button/default-button.component';
 import { TitleBlueprintComponent } from './partials/title-blueprint/title-blueprint.component';
 import { AboutMeSectionComponent } from './partials/home-sections/about-me-section/about-me-section.component';
+import { FooterComponent } from './partials/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutMeSectionComponent } from './partials/home-sections/about-me-secti
     TitleSectionComponent,
     DefaultButtonComponent,
     TitleBlueprintComponent,
-    AboutMeSectionComponent
+    AboutMeSectionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

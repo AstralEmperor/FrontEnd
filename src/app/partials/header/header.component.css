@@ -23,6 +23,21 @@
 .header__links a{
     color:var(--white);
 }
+a::after{
+    position:absolute;
+    content:'';
+    display:block;
+    height:1px;
+    bottom:0;
+    width:0px;
+    border-bottom:none;
+}
+a:hover::after,
+a:focus::after{
+    border-bottom:0.5px solid var(--orange);
+    transition: all ease-in 0.35s ;
+    width:100%;
+}
 .header__img{
     height:5rem;
     aspect-ratio: 1;
