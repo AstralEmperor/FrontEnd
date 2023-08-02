@@ -1,0 +1,8 @@
+.tag__container{
+margin:1rem;
+width:fit-content;
+}
+.tag{
+    padding:0.25rem 0.5rem 0.25rem 0.5rem;
+    border-radius:5px;
+}

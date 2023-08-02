@@ -11,6 +11,8 @@ import { DefaultButtonComponent } from './partials/default-button/default-button
 import { TitleBlueprintComponent } from './partials/title-blueprint/title-blueprint.component';
 import { AboutMeSectionComponent } from './partials/home-sections/about-me-section/about-me-section.component';
 import { FooterComponent } from './partials/footer/footer.component';
+import { SkillsSectionComponent } from './partials/home-sections/skills-section/skills-section.component';
+import { TagsComponent } from './shared/tags/tags.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { FooterComponent } from './partials/footer/footer.component';
     DefaultButtonComponent,
     TitleBlueprintComponent,
     AboutMeSectionComponent,
-    FooterComponent
+    FooterComponent,
+    SkillsSectionComponent,
+    TagsComponent
   ],
   imports: [
     BrowserModule,
