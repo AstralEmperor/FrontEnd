@@ -16,4 +16,8 @@ export class TagsComponent {
   fontSize = 1;
   @Input()
   border = '3px solid var(--darkOrange)'
+  @Input()
+  image?:string;
+  @Input()
+  altText!:string;
 }

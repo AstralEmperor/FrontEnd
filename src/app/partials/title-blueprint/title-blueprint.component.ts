@@ -9,8 +9,6 @@ export class TitleBlueprintComponent {
   @Input()
   title!: string;
   @Input()
-  margin? = '1.5rem 0 0 2.5rem';
-  @Input()
   fontSize? = '2.5rem'
   @Input()
   color?: string;

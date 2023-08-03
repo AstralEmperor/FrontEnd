@@ -5,4 +5,10 @@ width:fit-content;
 .tag{
     padding:0.25rem 0.5rem 0.25rem 0.5rem;
     border-radius:5px;
+    text-align:center;
+}
+.tag__img{
+    width:100px;
+    aspect-ratio:1;
+    background-color: transparent;
 }
