@@ -23,9 +23,28 @@
 }
 .skills__secondaryContainer{
     display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
     width:100%;
     min-height:30rem;
     padding-top:2rem;
+}
+.skills__subtitle{
+    font-size:30px;
+    font-weight:400;
+}
+.skills__subskills{
+    font-size: 1.2rem;
+    line-height:1.5rem;
+    padding-top:2rem;
+}
+.skills__subskills > li {
+    color:var(--snowGray);
+    background-color:var(--veryDarkGray);
+    padding:0.5rem;
+    margin:0.5rem;
+    border:1px solid var(--black)
 }
 .skills__text{
 display:flex;
