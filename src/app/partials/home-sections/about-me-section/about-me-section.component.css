@@ -24,7 +24,6 @@
 .about__secondaryContainer{
     display:flex;
     flex-basis:50%;
-    display:flex;
     min-height:30rem;
     flex-direction:row-reverse;
     padding-top:2rem;
@@ -48,7 +47,7 @@ line-height:1.2em;
     display:flex;
     width:100%;
     height:fit-content;
-    justify-content:flex-end;
+    justify-content:center;
 }
 h4{
     text-align:start;
@@ -58,4 +57,16 @@ h4{
 }
 strong{
     color:var(--darkVariantBlue);
+}
+@media screen and (max-width:1020px){
+    img{
+        display:none;
+    }
+    .about__text{
+        flex:1;
+        max-width:100%;
+    }
+    .about__imgContainer{
+        flex:0;
+    }
 }
