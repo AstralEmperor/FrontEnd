@@ -13,6 +13,8 @@ import { AboutMeSectionComponent } from './partials/home-sections/about-me-secti
 import { FooterComponent } from './partials/footer/footer.component';
 import { SkillsSectionComponent } from './partials/home-sections/skills-section/skills-section.component';
 import { TagsComponent } from './shared/tags/tags.component';
+import { ProjectsComponent } from './partials/projects-blueprint/projects.component';
+import { ProjectsSectionComponent } from './partials/home-sections/projects-section/projects-section.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { TagsComponent } from './shared/tags/tags.component';
     AboutMeSectionComponent,
     FooterComponent,
     SkillsSectionComponent,
-    TagsComponent
+    TagsComponent,
+    ProjectsComponent,
+    ProjectsSectionComponent
   ],
   imports: [
     BrowserModule,
