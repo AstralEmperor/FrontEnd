@@ -11,6 +11,7 @@
     width:100%;
     text-align:center;
     margin-bottom:2rem;
+    color:var(--black);
 }
 .singleProject__container{
     display:flex;

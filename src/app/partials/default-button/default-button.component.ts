@@ -7,7 +7,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class DefaultButtonComponent {
   @Input()
-  type: 'submit' | 'button' = 'button'
+  type: 'submit' | 'button' = 'button';
   @Input()
   text!: string;
   @Input()
@@ -17,10 +17,8 @@ export class DefaultButtonComponent {
   @Input()
   fontSize = 1.3;
   @Input()
-  widthRem = 12;
-  @Input()
-  heightRem = 2.2;
-
+  section?:string;
+  
   public goTo(section: string){
     window.location.hash =''
     window.location.hash = section

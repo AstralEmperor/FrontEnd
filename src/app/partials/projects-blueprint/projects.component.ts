@@ -13,6 +13,8 @@ export class ProjectsComponent {
   @Input()
   image!:string;
   @Input()
+  alt!:string;
+  @Input()
   name!:string;
   @Input()
   text!:string;

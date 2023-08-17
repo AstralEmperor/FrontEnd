@@ -2,9 +2,7 @@
     <button [ngStyle]="{
         'color':color,
         'background-color':bgColor,
-        'font-size.rem': fontSize,
-        'width.rem': widthRem,
-        'height.rem': heightRem
+        'font-size.rem': fontSize
     }"
-    [type] = "type" (click)="goTo('{{section}}')">{{text}}</button>
+    [type] = "type"><a (click)="goTo('project')">{{text}}</a></button>
 </div>
