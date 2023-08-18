@@ -29,7 +29,7 @@ import { ProjectsSectionComponent } from './partials/home-sections/projects-sect
     SkillsSectionComponent,
     TagsComponent,
     ProjectsComponent,
-    ProjectsSectionComponent
+    ProjectsSectionComponent,
   ],
   imports: [
     BrowserModule,

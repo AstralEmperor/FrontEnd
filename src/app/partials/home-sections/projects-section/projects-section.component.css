@@ -3,7 +3,10 @@
     position:relative;
     height:auto;
     width:100%;
-    background-color:var(--orange);
+    background:url('../../../../assets/some_pattern.webp');
+
+    background-color:var(--orange2);
+    background-blend-mode:hard-light;
     padding:5rem 0;
     font-size:1.2rem;
 }
@@ -11,7 +14,8 @@
     width:100%;
     text-align:center;
     margin-bottom:2rem;
-    color:var(--black);
+    color:var(--darkBlue);
+    -webkit-text-stroke: 0.1px black;
 }
 .singleProject__container{
     display:flex;

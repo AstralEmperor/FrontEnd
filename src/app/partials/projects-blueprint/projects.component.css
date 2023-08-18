@@ -5,7 +5,7 @@
     height:30rem;
     border-style:2px solid var(--snowGray);
     background-color:var(--veryDarkGray);
-    border-radius:0 0 5% 5%;
+    border-radius:2.5% 2.5% 5% 5%;
     font-size:1.2rem;
     color:var(--white);
     box-shadow: 0px 10px 15px 10px var(--darkOrange);
@@ -67,6 +67,25 @@ h3{
     font-size:1.5rem;
     font-weight:400;
 }
+.tag__container{
+    position:absolute;
+    width:fit-content;
+    margin-bottom:2rem;
+    display:flex;
+    gap:1rem;
+    flex-wrap:wrap;
+    bottom:0;
+    }
+    .tag{
+        padding:0.15rem 0.25rem 0.15rem 0.25rem;
+        border-radius:5px;
+        text-align:center;
+    }
+    .tag__img{
+        width:100px;
+        aspect-ratio:1;
+        background-color: transparent;
+    }
 @media screen and (max-width:768px){
     .container{
         width:100%;
