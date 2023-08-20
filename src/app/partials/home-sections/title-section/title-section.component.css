@@ -74,5 +74,5 @@
     border: 1.75px dotted var(--lightBlue);
     border-color:var(--lightBlue) var(--lightBlue) transparent transparent ;
     border-radius:25%/5rem 10rem 0 0;
-    transform: skewX(16deg) skewY(2.5deg) skewX(-10deg) skewY(-2.5deg);
+    transform: skewX(16deg) skewY(2.5deg) skewX(-15deg) skewY(-2.5deg);
 }

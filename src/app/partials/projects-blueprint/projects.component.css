@@ -40,7 +40,7 @@ img:hover{
     justify-content:space-around;
 }
 button{
-    font-size:1rem;
+    font-size:1.75ch;
     padding:0.25em 0.5em;
     background-color:var(--lightBlue);
     border-radius:5px;
@@ -90,5 +90,13 @@ h3{
     .container{
         width:100%;
         flex:1;
+    }
+}
+@media screen and (max-width:420px){
+    button{
+        font-size:1.4ch;
+    }
+    .buttons__wrap{
+        top:-23px;
     }
 }
