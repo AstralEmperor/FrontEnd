@@ -10,7 +10,7 @@ button{
     border:none;
     padding:0.25rem 0.5rem;
     border-bottom:0.5px solid var(--black);
-    padding:0.15rem 0.2rem;
+    -webkit-text-stroke:0.1px var(--darkOrange);
 }
 button:hover{
     opacity:1;

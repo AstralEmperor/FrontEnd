@@ -5,16 +5,16 @@
             <img class="header__img" src="../../../assets/Icon-1.png" alt="icon.png">
           </a>
         </div>
-        <div class="header__links">
+        <div #links [style.display]="display" class="header__links active">
             <a (click)="navigateToSection('aboutMe')">About Me</a> <!--tabindex="0"-->
             <a (click)="navigateToSection('skill')">Skills</a>
             <a (click)="navigateToSection('project')">Projects</a>
             <a (click)="navigateToSection('contact')">Contact Me</a>
         </div>
-        <div class="header__menuBtn">
+        <button class="header__menuBtn" (click) = "toggleMenu(links)">
             <span class="line"></span>
             <span class="line"></span>
             <span class="line"></span>
-        </div>
+        </button>
     </div>
 </nav>

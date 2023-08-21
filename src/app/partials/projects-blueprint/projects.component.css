@@ -35,7 +35,7 @@ img:hover{
 .buttons__wrap{
     position:absolute;
     display:flex;
-    top:-32px;
+    top:-28px;
     width:50%;
     justify-content:space-around;
 }
@@ -44,7 +44,6 @@ button{
     padding:0.25em 0.5em;
     background-color:var(--lightBlue);
     border-radius:5px;
-    opacity:0.9;
 }
 button > a {
     cursor:pointer;
@@ -52,9 +51,6 @@ button > a {
 }
 button > a:hover{
     color:var(--darkOrange);
-}
-button:hover{
-    opacity:1;
 }
 .text__container{
     color:var(--white);

@@ -10,4 +10,10 @@ export class HeaderComponent {
     window.location.hash = ''
     window.location.hash = section
   }
+  
+  display = 'flex';
+  toggleMenu(event: any):string{
+    console.log(this.display);
+    return this.display = 'flex' ? 'none' : 'flex';
+  }
 }
