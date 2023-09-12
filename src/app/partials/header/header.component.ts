@@ -20,7 +20,7 @@ export class HeaderComponent {
     else if(this.display === 'flex'){
       return this.display = 'none'
     }else{
-      return this.display = 'none';
+      return this.display = 'flex';
     }
   }
 }
