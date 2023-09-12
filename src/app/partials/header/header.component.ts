@@ -11,7 +11,7 @@ export class HeaderComponent {
     window.location.hash = section
   }
   
-  display = 'flex';
+  display = '';
   
   toggleMenu(event: any):string{
     if(this.display === 'none'){
