@@ -12,8 +12,15 @@ export class HeaderComponent {
   }
   
   display = 'flex';
+  
   toggleMenu(event: any):string{
-    console.log(this.display);
-    return this.display = 'flex' ? 'none' : 'flex';
+    if(this.display === 'none'){
+        return this.display = 'flex'
+    }
+    else if(this.display === 'flex'){
+      return this.display = 'none'
+    }else{
+      return this.display = 'none';
+    }
   }
 }
