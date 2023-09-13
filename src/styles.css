@@ -5,15 +5,16 @@
     box-sizing:border-box;
 }
 :root{
-    font-size:1.2rem;
+    font-size:18px;
     scroll-behavior: smooth;
     font-family: 'VT323', monospace;
    --darkBlue:rgb(22, 75, 96);
    --blue:rgb(27, 107, 147);
    --white:#ffffff;
    --orange:#ffa500;
-   --orange2:#bd9f66b;
+   --orange2:#be7c00;
    --darkOrange:#8d5f09;
+   --brown:#b9a379;
    --lightBlue:#4FC0D0;
    --black:#000000;
    --darkVariantBlue:rgb(0, 75, 105);
@@ -36,4 +37,9 @@ a{
 
 strong{
     color:var(--lightBlue)
+}
+@media screen and (max-width:768px){
+    :root{
+        font-size:14px;
+    }
 }

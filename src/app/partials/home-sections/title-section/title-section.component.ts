@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./title-section.component.css']
 })
 export class TitleSectionComponent {
-
+  public goTo(section: string){
+    window.location.hash =''
+    window.location.hash = section
+  }
 }

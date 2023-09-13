@@ -12,3 +12,8 @@ width:fit-content;
     aspect-ratio:1;
     background-color: transparent;
 }
+@media screen and (max-width:420px){
+    .tag__img{
+        width:75px;
+    }
+}

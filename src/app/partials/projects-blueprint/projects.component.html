@@ -5,8 +5,8 @@
     </div>
     <div class="secondary__container">
         <div class="buttons__wrap">
-            <button><a target="_blank" rel="noopener" href="{{linkGitHub}}">GitHub</a></button>
-            <button><a target="_blank" rel="noopener" href="{{linkLiveView}}">Live Preview</a></button>
+            <button *ngIf="linkGitHub"><a target="_blank" rel="noopener" href="{{linkGitHub}}">GitHub</a></button>
+            <button *ngIf="linkLiveView"><a target="_blank" rel="noopener" href="{{linkLiveView}}">Live Preview</a></button>
         </div>
         <div class="text__container">
             <h3>{{name}}</h3>
@@ -34,14 +34,14 @@
             }">
             {{tagName3}}
           </div>
-          <div class="tag" [ngStyle]="{
+          <div *ngIf="tagName4" class="tag" [ngStyle]="{
             'color':color,
             'background-color':bgColor,
             'font-size':fontSize,
             }">
             {{tagName4}}
           </div>
-          <div class="tag" [ngStyle]="{
+          <div *ngIf="tagName5" class="tag" [ngStyle]="{
             'color':color,
             'background-color':bgColor,
             'font-size':fontSize,

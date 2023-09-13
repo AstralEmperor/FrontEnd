@@ -19,8 +19,4 @@ export class DefaultButtonComponent {
   @Input()
   section?:string;
   
-  public goTo(section: string){
-    window.location.hash =''
-    window.location.hash = section
-  }
 }

@@ -76,3 +76,14 @@
     border-radius:25%/5rem 10rem 0 0;
     transform: skewX(16deg) skewY(2.5deg) skewX(-15deg) skewY(-2.5deg);
 }
+.title__button{
+    margin-top:1.5rem;
+}
+@media screen and (max-width:420px){
+    .title__imgCont{
+        display:none;
+    }
+    .title__container{
+        min-height:25rem;
+    }
+}

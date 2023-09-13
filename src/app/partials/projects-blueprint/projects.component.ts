@@ -34,4 +34,5 @@ export class ProjectsComponent {
   tagName5?:string;
   @Input()
   fontSize = 1;
+
 }

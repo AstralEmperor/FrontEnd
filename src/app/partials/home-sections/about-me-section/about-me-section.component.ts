@@ -8,17 +8,20 @@ import { Component } from '@angular/core';
 export class AboutMeSectionComponent {
 
   active:boolean = false;
-  text:string ="Read More";
+  textBtn:string ="Read More";
   show(active:boolean):boolean{
     return this.active = !this.active;
   }
   showText(active:boolean):string{
     if(active === true){
-      return this.text = "Show Less"
+      console.log('if');
+      return this.textBtn = "Show Less"
     }else if(active === false){
-      return this.text = "Read More"
+      console.log('else if');
+      return this.textBtn = "Read More"
     }else{
-      return this.text = "Read More"
+      console.log('else');
+      return this.textBtn = "Show Less"
     }
   }
 

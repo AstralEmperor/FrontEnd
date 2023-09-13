@@ -36,17 +36,20 @@ img:hover{
     position:absolute;
     display:flex;
     top:-28px;
-    width:50%;
+    gap:2rem;
     justify-content:space-around;
 }
 button{
-    font-size:1.75ch;
+    display:inline-block;
+    font-size:1.95ch;
     padding:0.25em 0.5em;
-    background-color:var(--lightBlue);
+    background-color:var(--orange);
     border-radius:5px;
+    width:fit-content;
 }
 button > a {
     cursor:pointer;
+    font-weight:600;
     color:var(--darkVariantBlue2);
 }
 button > a:hover{
@@ -90,9 +93,13 @@ h3{
 }
 @media screen and (max-width:420px){
     button{
-        font-size:1.4ch;
+        gap:0.25rem;
     }
     .buttons__wrap{
         top:-23px;
+    }
+    .tag__container{
+        margin-bottom:0.5rem;
+        gap:0.5rem;
     }
 }

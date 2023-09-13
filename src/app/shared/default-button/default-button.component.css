@@ -1,14 +1,14 @@
 .button__container{
-    padding-top:1.5rem;
+    width:fit-content;
 }
 button{
     display:flex;
     justify-content:center;
     align-items:center;
     border-radius: 10px;
-    opacity:0.95;
+    opacity:0.85;
     border:none;
-    padding:0.25rem 0.5rem;
+    padding:0.15rem 0.35rem;
     border-bottom:0.5px solid var(--black);
     -webkit-text-stroke:0.1px var(--darkOrange);
 }
@@ -18,7 +18,7 @@ button:hover{
 button > a {
     width:100%;
     height:100%;
-    padding:0.25rem 0.5rem;
+    padding:0.15rem 0.35rem;
     font-weight:400;
 }
 button > a:hover{
