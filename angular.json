@@ -83,7 +83,8 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              "docs/favicon.ico",
+              "src/favicon.ico",
+              "src/assets",
               "docs/assets"
             ],
             "styles": [
